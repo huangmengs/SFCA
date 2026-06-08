@@ -1,0 +1,10 @@
+# Core scientific stack.
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.7
+openpyxl>=3.1            # only needed when writing/reading .xlsx (fig4 saves one)
+
+# GPU simulator.  Pick the wheel that matches your CUDA toolkit, e.g.
+# `cupy-cuda12x` for CUDA 12.x, `cupy-cuda11x` for CUDA 11.x.  All scripts
+# assume CuPy is installed and at least one NVIDIA GPU is visible.
+cupy-cuda12x>=12.0
